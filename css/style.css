@@ -1,0 +1,330 @@
+/* fonts */
+
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../fonts/Montserrat-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../fonts/Montserrat-Regular.woff') format('woff');
+}
+
+/* base */
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  padding: 40px;
+  background: #f6f6fa;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  background: #fff;
+}
+
+/* contact */
+
+.main-container {
+  padding: 80px 40px 80px 88px;
+}
+
+/* sidebar */
+
+.sidebar {
+  background: #e0ebfe;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 370px;
+}
+
+.sidebar-content {
+  padding: 40px 40px 0 40px;
+}
+
+/* contacts */
+
+.contacts-container {
+  margin-bottom: 40px;
+}
+
+.contacts-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.contacts-type {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-right: 8px;
+}
+
+.contacts-link {
+  color: #2979ff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.contacts-item {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+/* skills  */
+
+.skills-container {
+  margin-bottom: 40px;
+}
+
+.skills-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.skills-list {
+  padding-left: 16px;
+}
+
+.skills-list-item {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* main content */
+
+.my-info {
+  margin-bottom: 40px;
+}
+
+.my-proffession {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.my-name {
+  color: #000;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.my-descr {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* projects  */
+
+.projects-container {
+  margin-bottom: 40px;
+}
+
+.projects-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+
+.projects-list {
+  padding-left: 16px;
+}
+
+.projects-item {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.projects-link {
+  color: #005fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.project-span {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* experience */
+
+.work-experience-container {
+  margin-bottom: 12px;
+}
+
+.work-experience-wrapper {
+  margin-bottom: 40px;
+}
+
+.work-experience-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.work-experience-company {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.work-experience-accent {
+  color: #6d9bf5;
+}
+
+.work-experience-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 8px;
+}
+
+.work-experience-separator {
+  color: #000;
+}
+
+.work-experience-list {
+  padding-left: 16px;
+}
+
+.work-experience-item {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* education */
+
+.education-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.education-work {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.education-text {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.certificate1 {
+  width: 500px;
+}
+
+.certificate2 {
+  width: 500px;
+}
+@media screen and (max-width: 960px) {
+  body {
+    padding: 20px;
+  }
+  .main-container {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    width: 250px;
+  }
+
+  .sidebar-content {
+    padding: 20px;
+  }
+
+  .my-photo {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+  .sidebar {
+    width: 200px;
+  }
+
+  .my-photo {
+    width: 200px;
+  }
+
+  .main-container {
+    padding: 20px;
+  }
+
+  .my-name {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .container {
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+  }
+
+  .my-photo {
+    width: 100%;
+  }
+}
